@@ -1,0 +1,2 @@
+E:\Thomas\PW\thirdparty\STLport-5.1.4\build\lib>configure -c msvc8 --rtl-static
+--use-boost ..\..\..\boost

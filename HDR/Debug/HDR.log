@@ -1,0 +1,337 @@
+﻿Build started 2013/9/25 12:09:56.
+     1>Project "D:\SIFT_Harris\HDR\HDR\HDR.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\HDR.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include" /I../Thirdparty/boost_1_43_0 /ZI /nologo /W3 /WX- /Od /Oy- /D _FMIMAGE_ /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\mathutil.hxx : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\mathutil.hxx : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\mathutil.hxx : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\mathutil.hxx : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\sift_harris\hdr\hdr\main.cpp(104): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\sift_harris\hdr\hdr\main.cpp(109): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 10.0\vc\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\array_vector.hxx(405) : see reference to function template instantiation '_OutIt std::copy<const unsigned char*,unsigned char*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=unsigned char *,
+                     _InIt=const unsigned char *
+                 ]
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\array_vector.hxx(399) : while compiling class template member function 'void vigra::ArrayVectorView<T>::copyImpl(const vigra::ArrayVectorView<T> &)'
+                 with
+                 [
+                     T=unsigned char
+                 ]
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\array_vector.hxx(484) : see reference to class template instantiation 'vigra::ArrayVectorView<T>' being compiled
+                 with
+                 [
+                     T=unsigned char
+                 ]
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\codec.hxx(213) : see reference to class template instantiation 'vigra::ArrayVector<T>' being compiled
+                 with
+                 [
+                     T=unsigned char
+                 ]
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xutility(2503): warning C4996: 'std::_Copy_backward': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 10.0\vc\include\xutility(2488) : see declaration of 'std::_Copy_backward'
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\array_vector.hxx(409) : see reference to function template instantiation '_BidIt2 std::copy_backward<const unsigned char*,unsigned char*>(_BidIt1,_BidIt1,_BidIt2)' being compiled
+                 with
+                 [
+                     _BidIt2=unsigned char *,
+                     _BidIt1=const unsigned char *
+                 ]
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xutility(2801): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 10.0\vc\include\xutility(2787) : see declaration of 'std::_Fill_n'
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\basicimage.hxx(1167) : see reference to function template instantiation 'void std::fill_n<float*,int,float>(_OutIt,_Diff,const _Ty &)' being compiled
+                 with
+                 [
+                     _OutIt=float *,
+                     _Diff=int,
+                     _Ty=float
+                 ]
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\basicimage.hxx(1141) : while compiling class template member function 'void vigra::BasicImage<PIXELTYPE>::resizeImpl(int,int,const float &,bool)'
+                 with
+                 [
+                     PIXELTYPE=float
+                 ]
+                 d:\sift_harris\hdr\hdr\hdr_core.h(2224) : see reference to class template instantiation 'vigra::BasicImage<PIXELTYPE>' being compiled
+                 with
+                 [
+                     PIXELTYPE=float
+                 ]
+                 d:\sift_harris\hdr\hdr\main.cpp(104) : see reference to function template instantiation 'int hdrMain<vigra::RGBValue<VALUETYPE>>(const FileNameList &,const std::list<_Ty> &,vigra::Rect2D &)' being compiled
+                 with
+                 [
+                     VALUETYPE=vigra::UInt8,
+                     _Ty=vigra::ImageImportInfo *
+                 ]
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xutility(2801): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 10.0\vc\include\xutility(2787) : see declaration of 'std::_Fill_n'
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\basicimage.hxx(1167) : see reference to function template instantiation 'void std::fill_n<unsigned char*,int,unsigned char>(_OutIt,_Diff,const _Ty &)' being compiled
+                 with
+                 [
+                     _OutIt=unsigned char *,
+                     _Diff=int,
+                     _Ty=unsigned char
+                 ]
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\basicimage.hxx(1141) : while compiling class template member function 'void vigra::BasicImage<PIXELTYPE>::resizeImpl(int,int,const unsigned char &,bool)'
+                 with
+                 [
+                     PIXELTYPE=vigra::UInt8
+                 ]
+                 d:\sift_harris\hdr\hdr\hdr_core.h(2228) : see reference to class template instantiation 'vigra::BasicImage<PIXELTYPE>' being compiled
+                 with
+                 [
+                     PIXELTYPE=vigra::UInt8
+                 ]
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xutility(2801): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 10.0\vc\include\xutility(2787) : see declaration of 'std::_Fill_n'
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\basicimage.hxx(1167) : see reference to function template instantiation 'void std::fill_n<vigra::RGBValue<VALUETYPE>*,int,vigra::RGBValue<VALUETYPE>>(_OutIt,_Diff,const _Ty &)' being compiled
+                 with
+                 [
+                     VALUETYPE=vigra::UInt8,
+                     _OutIt=vigra::RGBValue<vigra::UInt8> *,
+                     _Diff=int,
+                     _Ty=vigra::RGBValue<vigra::UInt8>
+                 ]
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\basicimage.hxx(1141) : while compiling class template member function 'void vigra::BasicImage<PIXELTYPE>::resizeImpl(int,int,const vigra::RGBValue<VALUETYPE> &,bool)'
+                 with
+                 [
+                     PIXELTYPE=vigra::RGBValue<vigra::UInt8>,
+                     VALUETYPE=vigra::UInt8
+                 ]
+                 d:\sift_harris\hdr\hdr\hdr_core.h(2250) : see reference to class template instantiation 'vigra::BasicImage<PIXELTYPE>' being compiled
+                 with
+                 [
+                     PIXELTYPE=vigra::RGBValue<vigra::UInt8>
+                 ]
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xutility(2801): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 10.0\vc\include\xutility(2787) : see declaration of 'std::_Fill_n'
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\basicimage.hxx(1167) : see reference to function template instantiation 'void std::fill_n<vigra::RGBValue<VALUETYPE>*,int,vigra::RGBValue<VALUETYPE>>(_OutIt,_Diff,const _Ty &)' being compiled
+                 with
+                 [
+                     VALUETYPE=vigra::UInt16,
+                     _OutIt=vigra::RGBValue<vigra::UInt16> *,
+                     _Diff=int,
+                     _Ty=vigra::RGBValue<vigra::UInt16>
+                 ]
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\basicimage.hxx(1141) : while compiling class template member function 'void vigra::BasicImage<PIXELTYPE>::resizeImpl(int,int,const vigra::RGBValue<VALUETYPE> &,bool)'
+                 with
+                 [
+                     PIXELTYPE=vigra::RGBValue<vigra::UInt16>,
+                     VALUETYPE=vigra::UInt16
+                 ]
+                 d:\sift_harris\hdr\hdr\hdr_core.h(2250) : see reference to class template instantiation 'vigra::BasicImage<PIXELTYPE>' being compiled
+                 with
+                 [
+                     PIXELTYPE=vigra::RGBValue<vigra::UInt16>
+                 ]
+                 d:\sift_harris\hdr\hdr\main.cpp(109) : see reference to function template instantiation 'int hdrMain<vigra::RGBValue<VALUETYPE>>(const FileNameList &,const std::list<_Ty> &,vigra::Rect2D &)' being compiled
+                 with
+                 [
+                     VALUETYPE=vigra::UInt16,
+                     _Ty=vigra::ImageImportInfo *
+                 ]
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xutility(2801): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 10.0\vc\include\xutility(2787) : see declaration of 'std::_Fill_n'
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\basicimage.hxx(1167) : see reference to function template instantiation 'void std::fill_n<short*,int,short>(_OutIt,_Diff,const _Ty &)' being compiled
+                 with
+                 [
+                     _OutIt=short *,
+                     _Diff=int,
+                     _Ty=short
+                 ]
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\basicimage.hxx(1141) : while compiling class template member function 'void vigra::BasicImage<PIXELTYPE>::resizeImpl(int,int,const short &,bool)'
+                 with
+                 [
+                     PIXELTYPE=vigra::Int16
+                 ]
+                 d:\sift_harris\hdr\hdr\hdr_core.h(1192) : see reference to function template instantiation 'std::vector<_Ty> *gaussianPyramid<SrcImageType,AlphaImageType,PyramidImageType,9,7,SKIPSMImagePixelType,SKIPSMAlphaPixelType>(unsigned int,bool,vigra::ConstBasicImageIterator<PIXELTYPE,ITERATOR>,vigra::ConstBasicImageIterator<PIXELTYPE,ITERATOR>,vigra::StandardConstValueAccessor<VALUETYPE>,vigra::ConstBasicImageIterator<unsigned char,unsigned char **>,vigra::StandardConstValueAccessor<unsigned char>)' being compiled
+                 with
+                 [
+                     _Ty=MaskPyramidType *,
+                     SrcImageType=MaskType,
+                     AlphaImageType=AlphaType,
+                     PyramidImageType=MaskPyramidType,
+                     SKIPSMImagePixelType=SKIPSMMaskPixelType,
+                     SKIPSMAlphaPixelType=SKIPSMAlphaPixelType,
+                     PIXELTYPE=float,
+                     ITERATOR=float **,
+                     VALUETYPE=float
+                 ]
+                 d:\sift_harris\hdr\hdr\hdr_core.h(2382) : see reference to function template instantiation 'std::vector<_Ty> *gaussianPyramid<MaskType,AlphaType,MaskPyramidType,9,7,SKIPSMMaskPixelType,SKIPSMAlphaPixelType>(unsigned int,bool,vigra::triple<T1,T2,T3>,std::pair<_Ty1,_Ty2>)' being compiled
+                 with
+                 [
+                     _Ty=MaskPyramidType *,
+                     T1=vigra::ConstBasicImageIterator<float,float **>,
+                     T2=vigra::ConstBasicImageIterator<float,float **>,
+                     T3=vigra::StandardConstValueAccessor<float>,
+                     _Ty1=vigra::ConstBasicImageIterator<vigra::UInt8,vigra::UInt8 **>,
+                     _Ty2=vigra::StandardConstValueAccessor<unsigned char>
+                 ]
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xutility(2801): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 10.0\vc\include\xutility(2787) : see declaration of 'std::_Fill_n'
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\basicimage.hxx(1167) : see reference to function template instantiation 'void std::fill_n<int*,int,int>(_OutIt,_Diff,const _Ty &)' being compiled
+                 with
+                 [
+                     _OutIt=int *,
+                     _Diff=int,
+                     _Ty=int
+                 ]
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\basicimage.hxx(1141) : while compiling class template member function 'void vigra::BasicImage<PIXELTYPE>::resizeImpl(int,int,const int &,bool)'
+                 with
+                 [
+                     PIXELTYPE=vigra::Int32
+                 ]
+                 d:\sift_harris\hdr\hdr\hdr_core.h(1192) : see reference to function template instantiation 'std::vector<_Ty> *gaussianPyramid<SrcImageType,AlphaImageType,PyramidImageType,9,15,SKIPSMImagePixelType,SKIPSMAlphaPixelType>(unsigned int,bool,vigra::ConstBasicImageIterator<PIXELTYPE,ITERATOR>,vigra::ConstBasicImageIterator<PIXELTYPE,ITERATOR>,vigra::StandardConstValueAccessor<VALUETYPE>,vigra::ConstBasicImageIterator<unsigned char,unsigned char **>,vigra::StandardConstValueAccessor<unsigned char>)' being compiled
+                 with
+                 [
+                     _Ty=MaskPyramidType *,
+                     SrcImageType=MaskType,
+                     AlphaImageType=AlphaType,
+                     PyramidImageType=MaskPyramidType,
+                     SKIPSMImagePixelType=SKIPSMMaskPixelType,
+                     SKIPSMAlphaPixelType=SKIPSMAlphaPixelType,
+                     PIXELTYPE=float,
+                     ITERATOR=float **,
+                     VALUETYPE=float
+                 ]
+                 d:\sift_harris\hdr\hdr\hdr_core.h(2382) : see reference to function template instantiation 'std::vector<_Ty> *gaussianPyramid<MaskType,AlphaType,MaskPyramidType,9,15,SKIPSMMaskPixelType,SKIPSMAlphaPixelType>(unsigned int,bool,vigra::triple<T1,T2,T3>,std::pair<_Ty1,_Ty2>)' being compiled
+                 with
+                 [
+                     _Ty=MaskPyramidType *,
+                     T1=vigra::ConstBasicImageIterator<float,float **>,
+                     T2=vigra::ConstBasicImageIterator<float,float **>,
+                     T3=vigra::StandardConstValueAccessor<float>,
+                     _Ty1=vigra::ConstBasicImageIterator<vigra::UInt8,vigra::UInt8 **>,
+                     _Ty2=vigra::StandardConstValueAccessor<unsigned char>
+                 ]
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xutility(2801): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 10.0\vc\include\xutility(2787) : see declaration of 'std::_Fill_n'
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\basicimage.hxx(1167) : see reference to function template instantiation 'void std::fill_n<vigra::RGBValue<VALUETYPE>*,int,vigra::RGBValue<VALUETYPE>>(_OutIt,_Diff,const _Ty &)' being compiled
+                 with
+                 [
+                     VALUETYPE=vigra::Int16,
+                     _OutIt=vigra::RGBValue<vigra::Int16> *,
+                     _Diff=int,
+                     _Ty=vigra::RGBValue<vigra::Int16>
+                 ]
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\basicimage.hxx(1141) : while compiling class template member function 'void vigra::BasicImage<PIXELTYPE>::resizeImpl(int,int,const vigra::RGBValue<VALUETYPE> &,bool)'
+                 with
+                 [
+                     PIXELTYPE=vigra::RGBValue<vigra::Int16>,
+                     VALUETYPE=vigra::Int16
+                 ]
+                 d:\sift_harris\hdr\hdr\hdr_core.h(1211) : see reference to function template instantiation 'std::vector<_Ty> *gaussianPyramid<SrcImageType,AlphaImageType,PyramidImageType,9,7,SKIPSMImagePixelType,SKIPSMAlphaPixelType>(unsigned int,bool,vigra::ConstBasicImageIterator<PIXELTYPE,ITERATOR>,vigra::ConstBasicImageIterator<PIXELTYPE,ITERATOR>,vigra::RGBAccessor<RGBVALUE>,vigra::ConstBasicImageIterator<unsigned char,unsigned char **>,vigra::StandardConstValueAccessor<VALUETYPE>)' being compiled
+                 with
+                 [
+                     _Ty=ImagePyramidType *,
+                     SrcImageType=ImageType,
+                     AlphaImageType=AlphaType,
+                     PyramidImageType=ImagePyramidType,
+                     SKIPSMImagePixelType=SKIPSMImagePixelType,
+                     SKIPSMAlphaPixelType=SKIPSMAlphaPixelType,
+                     PIXELTYPE=vigra::RGBValue<vigra::UInt8>,
+                     ITERATOR=vigra::RGBValue<vigra::UInt8> **,
+                     RGBVALUE=vigra::RGBValue<vigra::UInt8>,
+                     VALUETYPE=unsigned char
+                 ]
+                 d:\sift_harris\hdr\hdr\hdr_core.h(1237) : see reference to function template instantiation 'std::vector<_Ty> *laplacianPyramid<SrcImageType,AlphaImageType,PyramidImageType,9,7,SKIPSMImagePixelType,SKIPSMAlphaPixelType>(const char *,unsigned int,bool,vigra::ConstBasicImageIterator<PIXELTYPE,ITERATOR>,vigra::ConstBasicImageIterator<PIXELTYPE,ITERATOR>,vigra::RGBAccessor<RGBVALUE>,vigra::ConstBasicImageIterator<unsigned char,unsigned char **>,vigra::StandardConstValueAccessor<VALUETYPE>)' being compiled
+                 with
+                 [
+                     _Ty=ImagePyramidType *,
+                     SrcImageType=ImageType,
+                     AlphaImageType=AlphaType,
+                     PyramidImageType=ImagePyramidType,
+                     SKIPSMImagePixelType=SKIPSMImagePixelType,
+                     SKIPSMAlphaPixelType=SKIPSMAlphaPixelType,
+                     PIXELTYPE=vigra::RGBValue<vigra::UInt8>,
+                     ITERATOR=vigra::RGBValue<vigra::UInt8> **,
+                     RGBVALUE=vigra::RGBValue<vigra::UInt8>,
+                     VALUETYPE=unsigned char
+                 ]
+                 d:\sift_harris\hdr\hdr\hdr_core.h(2369) : see reference to function template instantiation 'std::vector<_Ty> *laplacianPyramid<ImageType,AlphaType,ImagePyramidType,9,7,SKIPSMImagePixelType,SKIPSMAlphaPixelType>(const char *,unsigned int,bool,vigra::triple<T1,T2,T3>,std::pair<_Ty1,_Ty2>)' being compiled
+                 with
+                 [
+                     _Ty=ImagePyramidType *,
+                     T1=vigra::ConstBasicImageIterator<vigra::RGBValue<vigra::UInt8>,vigra::RGBValue<vigra::UInt8> **>,
+                     T2=vigra::ConstBasicImageIterator<vigra::RGBValue<vigra::UInt8>,vigra::RGBValue<vigra::UInt8> **>,
+                     T3=vigra::RGBAccessor<vigra::RGBValue<vigra::UInt8>>,
+                     _Ty1=vigra::ConstBasicImageIterator<vigra::UInt8,vigra::UInt8 **>,
+                     _Ty2=vigra::StandardConstValueAccessor<unsigned char>
+                 ]
+     1>c:\program files\microsoft visual studio 10.0\vc\include\xutility(2801): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files\microsoft visual studio 10.0\vc\include\xutility(2787) : see declaration of 'std::_Fill_n'
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\basicimage.hxx(1167) : see reference to function template instantiation 'void std::fill_n<vigra::RGBValue<VALUETYPE>*,int,vigra::RGBValue<VALUETYPE>>(_OutIt,_Diff,const _Ty &)' being compiled
+                 with
+                 [
+                     VALUETYPE=vigra::Int32,
+                     _OutIt=vigra::RGBValue<vigra::Int32> *,
+                     _Diff=int,
+                     _Ty=vigra::RGBValue<vigra::Int32>
+                 ]
+                 e:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\include\vigra\basicimage.hxx(1141) : while compiling class template member function 'void vigra::BasicImage<PIXELTYPE>::resizeImpl(int,int,const vigra::RGBValue<VALUETYPE> &,bool)'
+                 with
+                 [
+                     PIXELTYPE=vigra::RGBValue<vigra::Int32>,
+                     VALUETYPE=vigra::Int32
+                 ]
+                 d:\sift_harris\hdr\hdr\hdr_core.h(1211) : see reference to function template instantiation 'std::vector<_Ty> *gaussianPyramid<SrcImageType,AlphaImageType,PyramidImageType,17,7,SKIPSMImagePixelType,SKIPSMAlphaPixelType>(unsigned int,bool,vigra::ConstBasicImageIterator<PIXELTYPE,ITERATOR>,vigra::ConstBasicImageIterator<PIXELTYPE,ITERATOR>,vigra::RGBAccessor<RGBVALUE>,vigra::ConstBasicImageIterator<unsigned char,unsigned char **>,vigra::StandardConstValueAccessor<VALUETYPE>)' being compiled
+                 with
+                 [
+                     _Ty=ImagePyramidType *,
+                     SrcImageType=ImageType,
+                     AlphaImageType=AlphaType,
+                     PyramidImageType=ImagePyramidType,
+                     SKIPSMImagePixelType=SKIPSMImagePixelType,
+                     SKIPSMAlphaPixelType=SKIPSMAlphaPixelType,
+                     PIXELTYPE=vigra::RGBValue<vigra::UInt16>,
+                     ITERATOR=vigra::RGBValue<vigra::UInt16> **,
+                     RGBVALUE=vigra::RGBValue<vigra::UInt16>,
+                     VALUETYPE=unsigned char
+                 ]
+                 d:\sift_harris\hdr\hdr\hdr_core.h(1237) : see reference to function template instantiation 'std::vector<_Ty> *laplacianPyramid<SrcImageType,AlphaImageType,PyramidImageType,17,7,SKIPSMImagePixelType,SKIPSMAlphaPixelType>(const char *,unsigned int,bool,vigra::ConstBasicImageIterator<PIXELTYPE,ITERATOR>,vigra::ConstBasicImageIterator<PIXELTYPE,ITERATOR>,vigra::RGBAccessor<RGBVALUE>,vigra::ConstBasicImageIterator<unsigned char,unsigned char **>,vigra::StandardConstValueAccessor<VALUETYPE>)' being compiled
+                 with
+                 [
+                     _Ty=ImagePyramidType *,
+                     SrcImageType=ImageType,
+                     AlphaImageType=AlphaType,
+                     PyramidImageType=ImagePyramidType,
+                     SKIPSMImagePixelType=SKIPSMImagePixelType,
+                     SKIPSMAlphaPixelType=SKIPSMAlphaPixelType,
+                     PIXELTYPE=vigra::RGBValue<vigra::UInt16>,
+                     ITERATOR=vigra::RGBValue<vigra::UInt16> **,
+                     RGBVALUE=vigra::RGBValue<vigra::UInt16>,
+                     VALUETYPE=unsigned char
+                 ]
+                 d:\sift_harris\hdr\hdr\hdr_core.h(2369) : see reference to function template instantiation 'std::vector<_Ty> *laplacianPyramid<ImageType,AlphaType,ImagePyramidType,17,7,SKIPSMImagePixelType,SKIPSMAlphaPixelType>(const char *,unsigned int,bool,vigra::triple<T1,T2,T3>,std::pair<_Ty1,_Ty2>)' being compiled
+                 with
+                 [
+                     _Ty=ImagePyramidType *,
+                     T1=vigra::ConstBasicImageIterator<vigra::RGBValue<vigra::UInt16>,vigra::RGBValue<vigra::UInt16> **>,
+                     T2=vigra::ConstBasicImageIterator<vigra::RGBValue<vigra::UInt16>,vigra::RGBValue<vigra::UInt16> **>,
+                     T3=vigra::RGBAccessor<vigra::RGBValue<vigra::UInt16>>,
+                     _Ty1=vigra::ConstBasicImageIterator<vigra::UInt8,vigra::UInt8 **>,
+                     _Ty2=vigra::StandardConstValueAccessor<unsigned char>
+                 ]
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SIFT_Harris\HDR\Debug\HDR.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\vigraimpex\vigra-1.9.0-src\vigra-1.9.0\vs2010\src\impex\Debug" vigraimpex.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HDR.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\SIFT_Harris\HDR\Debug\HDR.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SIFT_Harris\HDR\Debug\HDR.lib" /MACHINE:X86 Debug\HDR.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\HDR.exe.embed.manifest" /manifest Debug\HDR.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         HDR.vcxproj -> D:\SIFT_Harris\HDR\Debug\HDR.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\HDR.unsuccessfulbuild".
+         Touching "Debug\HDR.lastbuildstate".
+     1>Done Building Project "D:\SIFT_Harris\HDR\HDR\HDR.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.25

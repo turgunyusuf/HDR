@@ -1,0 +1,26 @@
+2k*1k
+HDR process time is 4244
+HDR process time is 2854
+HDR process time is 4181
+HDR process time is 2621
+2k*2k
+HDR process time is 8362
+HDR process time is 8346
+
+4k*2k
+HDR process time is 31559
+HDR process time is 29968
+HDR process time is 30405
+Basic Image
+HDR process time is 24196
+HDR process time is 24555
+HDR process time is 23728
+
+HDR process time is 7925
+
+9 3872*2592
+HDR process time is 29344
+HDR process time is 28673
+HDR process time is 33696
+filemap:
+HDR process time is 47035

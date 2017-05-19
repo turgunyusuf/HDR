@@ -1,0 +1,14 @@
+修改了type_traits.h文件中
+
+#ifdef _STLP_USE_BOOST_SUPPORT
+#  include <stl/boost_type_traits.h>
+#  include <boost/type_traits/add_reference.hpp>
+#  include <boost/type_traits/add_const.hpp>
+#  include <boost/type_traits/remove_const.hpp>    //增加这一行
+#endif /* _STLP_USE_BOOST_SUPPORT */
+
+进入vs command prompt
+
+configure msvc9 --with-static-rtl --use-boost ..\..\..\boost_1_43_0
+cd build/lib
+nmake release-static install-release-static
